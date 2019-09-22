@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+	<include file="$(find aubo_robot_base)/launch/call_rscamera_artrack.launch"/>
+	
+    <node name="ar_tracker_fetch" pkg="aubo_robot_base" type="ar_tracker_fetch" output="screen" />
+	
+</launch>

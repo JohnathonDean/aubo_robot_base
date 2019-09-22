@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!--<include file="$(find aubo_robot_base)/launch/call_rscamera_artrack.launch"/>-->
+
+	<node name="dhgripper_server" pkg="dh_ag95l" type="dhgripper_server" output="screen"  >
+	</node>
+
+    <node name="demo4" pkg="aubo_robot_base" type="demo11" output="screen"  >
+	</node>
+	
+</launch>

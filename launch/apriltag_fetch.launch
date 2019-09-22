@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+	<include file="$(find aubo_robot_base)/launch/call_rscamera_apriltag.launch"/>
+	
+    <node name="apriltag_fetch" pkg="aubo_robot_base" type="apriltag_fetch" output="screen"  >
+	</node>
+	
+</launch>
